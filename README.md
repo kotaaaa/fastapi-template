@@ -2,6 +2,7 @@
 
 ```Shell
 $ docker-compose up
+$ docker-compose down
 ```
 
 # Sample Data insert
