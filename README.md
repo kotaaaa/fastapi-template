@@ -32,5 +32,5 @@ $ docker-compose run --entrypoint "poetry run pytest --asyncio-mode=auto" demo-a
 # Swagger UI
 
 ```Shell
-http://localhost:8000/docs#/
+http://localhost:8000/docs
 ```
