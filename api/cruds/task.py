@@ -39,7 +39,7 @@ async def get_task(db: AsyncSession, task_id: int) -> Optional[task_model.Task]:
     task: Optional[Tuple[task_model.Task]] = result.first()
     return (
         task[0] if task is not None else None
-    )  # Retrieve the first element since it is returned in tuple even if there is only one element
+    )  # Retrieve the first element since it is returned in tuple even if there is only one element.
 
 
 async def update_task(
